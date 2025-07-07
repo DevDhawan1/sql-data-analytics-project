@@ -1,5 +1,3 @@
-# sql-data-analytics-project
-
 # 📊 SQL Data Analysis & Reporting Project
 
 This project showcases the end-to-end SQL-based data analysis workflow on a simulated sales dataset. It includes data cleaning, trend analysis, performance evaluation, segmentation, and final report generation — modularized across separate SQL files.
