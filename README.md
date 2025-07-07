@@ -47,8 +47,108 @@ This project showcases the end-to-end SQL-based data analysis workflow on a simu
   - **Regular** – Medium spenders or stable users
   - **New** – Recent/low-value customers
 
-### 📊 Category Contribution
+### 📊 Part to Whole Analysis
 - Calculates each category’s percentage share in overall revenue
+---
+
+## 🗂️ Database Schema (ER Diagram)
+
+The SQL project uses a star schema centered around the `fact_sales` table, connected to `dim_customers` and `dim_products` via foreign keys.
+
+This ER diagram illustrates the relationship between all core tables used in this project:
+
+![ER Diagram](images/er_diagram.png)
+
+---
+
+## 📊 Visual Insights
+
+### 📅 Time Trend Analysis
+
+#### 🗓️ Monthly Sales
+Shows how total sales evolved month by month across the timeline.
+
+![Monthly Sales](images/monthly_total_sales.png)
+
+#### 📈 Monthly Quantity Sold
+Tracks the total quantity of products sold each month.
+
+![Monthly Quantity](images/monthly_total_quantity.png)
+
+#### 👥 Monthly Customers
+Number of distinct customers placing orders each month.
+
+![Monthly Customers](images/monthly_total_customers.png)
+
+---
+
+### 📆 Yearly Performance Summary
+
+#### 💵 Total Sales per Year
+Shows year-over-year growth or decline in overall revenue.
+
+![Yearly Sales](images/yearly_total_sales.png)
+
+#### 📦 Yearly Quantity
+Tracks units sold per year to identify volume trends.
+
+![Yearly Quantity](images/yearly_total_quantity.png)
+
+#### 🧍‍♂️ Yearly Customers
+Monitors how customer acquisition or retention changed over time.
+
+![Yearly Customers](images/yearly_total_customers.png)
+
+---
+
+### 🔁 Cumulative Insights & Moving Averages
+
+#### 📊 Running Total Sales
+Running sales helps visualize accumulation over time.
+
+![Running Sales](images/cumulative_running_sales.png)
+
+#### 📈 Cumulative Sales with Moving Average Price
+Analyzes price trends with smoothing applied using a moving average.
+
+![Moving Avg Price](images/cumulative_moving_average_price.png)
+
+#### 📈 Cumulative Total Sales
+Overall growth in revenue with respect to time.
+
+![Cumulative Total](images/cumulative_total_sales.png)
+
+---
+
+### 🎯 Performance Evaluation
+
+Products categorized by whether they performed **Above** or **Below Average**, and **Increased** or **Decreased** compared to the previous year.
+
+![Performance Analysis](images/performance_analysis.png)
+
+---
+
+### 🧩 Product Segmentation
+
+Grouping products by pricing tiers to identify premium vs budget segment distribution.
+
+![Product Segmentation](images/products_data_segmentation.png)
+
+---
+
+### 🧠 Customer Segmentation
+
+Classifying customers as **VIP**, **Regular**, or **New** based on behavior and spending.
+
+![Customer Segmentation](images/customers_data_segmentation.png)
+
+---
+
+### 🍰 Part-to-Whole Analysis
+
+Visualizing the **category-wise contribution** to total sales using a pie chart or bar chart.
+
+![Category Contribution](images/part_to_whole_analysis.png)
 
 ---
 
